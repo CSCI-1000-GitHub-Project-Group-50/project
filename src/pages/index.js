@@ -10,6 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className='title'>Congratulations! You've set up your webapp!</h1>
+        <h2 className='subtitle'> This is the website for Group 50's Github Project!</h2>
 
         <p className='description'>
           Get started by editing <code>src/pages/index.js</code> to be your
@@ -25,6 +26,11 @@ export default function Home() {
           <a href='/TomHolland ' className='card'>
             <h3>Example About Me Page &rarr;</h3>
             <p>Click here to navigate to an example page</p>
+          </a>
+
+          <a href='/AdamElliott ' className='card'>
+              <h3>Adam Elliott's About Me Page &rarr;</h3>
+              <p>Click here to navigate to my page!</p>              
           </a>
 
           <a
