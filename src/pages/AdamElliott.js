@@ -9,18 +9,23 @@ export default function examplePage() {
             <h1 className='title'>Willkommen zu meiner Website! </h1>
           </div>
           <img
-          // see if I can change attributes despite className
           // 4608 x 2592
-          // look into title className -- let it wrap
-          // adjust photo + anything else
-            className='pic'
+            // className='pic'
             src='https://i.postimg.cc/jSTTF0wy/20230718-132036.jpg'
             alt='Bamberger Rathaus, Deutschland'
+            height='518.4'
+            width='921.6'
           />
 
           <p className='description'>
-            あんたわふぁっく。&#x1F604; 
-            Entschuldigung. Have a nice day!
+            こにちわ。&#x1F604; 
+            I'm Adam, and I love learning languages. Whether that be world languages, programming languages, or the language of music theory: 
+            I do enjoy the simple pleasures of learning new things.
+            In addition, I also love the mountains, trying new things (especially food), and playing piano. 
+            Tschüss!
+            ¡Nos vemos!
+            いってらっしゃい。
+            Have a nice day!
           </p>
 
           <a className='button' href='/'>
@@ -36,7 +41,7 @@ export default function examplePage() {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            max-width: 60rem;
+            max-width: 70rem;
             margin: auto;
           }
 
