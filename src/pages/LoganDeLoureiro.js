@@ -11,14 +11,15 @@ export default function examplePage() {
           <img
           // 4608 x 2592
             // className='pic'
-            src='https://i.postimg.cc/jSTTF0wy/20230718-132036.jpg'
-            alt='Bamberger Rathaus, Deutschland'
+            src='https://i.postimg.cc/HnYkjb7d/IMG-3835.jpg'
+            alt='Me being a baller'
             height='518.4'
             width='921.6'
           />
 
           <p className='description'>
             What's up, ny name is Logan DeLoureiro (dee - low - rare - oh) and I'm a Computer science BA major.
+            I like to snowboard and watch sports even though all my teams suck. J-E-T-S JETS JETS JETS
           </p>
 
           <a className='button' href='/'>
